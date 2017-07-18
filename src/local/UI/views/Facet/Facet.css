@@ -1,0 +1,37 @@
+:local(.facet) {
+     -webkit-app-region: no-drag;
+     padding: 5px;
+     background-color: rgba(255, 255, 255, 0.9);
+     margin: 5px;
+}
+
+:local(.facet) h3 {
+    border-left: solid 2px var(--main-color);
+    padding-left: 5px;
+    margin: 0px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+:local(.header) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #eee;
+    height:23px;
+    margin-bottom: 5px;
+}
+
+:local(.button) {
+    color: var(--main-color);
+}
+
+:local(.buttons) {
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+.hasScroll {
+    box-shadow: 0px 0px 10px var(--shadow-color) inset;
+    background-color: red;
+}

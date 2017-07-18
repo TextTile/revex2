@@ -1,0 +1,13 @@
+:local(.searchBox) {
+    display: flex;
+    align-items: center;
+}
+:local(.searchBox) input {
+    font-size: 14px;
+}
+
+:local(.dropdown) {
+    white-space: nowrap;
+    max-width: 200px;
+    color: #999;
+}

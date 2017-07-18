@@ -1,0 +1,59 @@
+:local(.dataSets) {
+    height: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+:local(.container) {
+    z-index: 1;
+}
+
+:local(.container) :local(.logo) {
+    margin-bottom: 30px;
+    animation: dataSets-fadeinTop 0.5s ease-in-out;
+    text-align: center;
+    width: 400px;
+}
+
+:local(.container) :local(.logo) img {
+    width: 300px;
+}
+
+
+:local(.controls) {
+    margin-top: 30px;
+    text-align: right;
+    animation:  dataSets-controls 0.5s ease-in-out;
+}
+
+:local(.panel) {
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 1px #B6C6CE;
+    border-radius: 3px;
+    max-height: 350px;
+    width: 400px;
+    padding: 10px;
+    min-height: 60px;
+    animation: dataSets-fadeinBottom 0.6s ease-in-out;
+}
+
+@keyframes dataSets-controls {
+    from { opacity: 0; transform: translate(0px, 20px); }
+    to   { opacity: 1; transform: translate(0px, 0px);}
+}
+
+
+@keyframes dataSets-fadeinTop {
+    from { opacity: 0; transform: translate(0px, -20px); }
+    to   { opacity: 1; transform: translate(0px, 0px);}
+}
+
+
+@keyframes dataSets-fadeinBottom {
+    from { opacity: 0; transform: translate(0px, 10px); }
+    to   { opacity: 1; transform: translate(0px, 0px);}
+}

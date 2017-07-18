@@ -1,0 +1,23 @@
+:local(.listChart) {
+    font-size: 0.8em;
+    background-color: rgba(255, 255, 255, 1);
+    max-height: 240px;
+    overflow: auto;
+}
+
+:local(.listChart) table {
+    width: 100%;
+}
+
+:local(.hasScroll) {
+    box-shadow: -2px -5px 5px var(--shadow-color) inset;
+}
+
+:local(.more) {
+    text-align: right;
+    font-size: 0.8em;
+}
+
+:local(.more) a {
+    color: var(--main-color);
+}

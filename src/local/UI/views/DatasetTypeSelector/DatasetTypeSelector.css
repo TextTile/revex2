@@ -1,0 +1,31 @@
+:local(.datasetTypeList) {
+    display: flex;
+    max-width: 600px;
+    flex-wrap:  wrap;
+}
+
+:local(.datasetType) {
+    width: 200px;
+    box-shadow: 0px 0px 10px #ccc;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 20px;
+}
+
+:local(.datasetType):hover {
+    box-shadow: 0px 0px 20px #ccc;
+    background-color: rgba(255, 255, 255, 1);
+    transform: translateY(-2px)
+}
+
+:local(.datasetType) img {
+    width: 120px;
+}
+
+:local(.controls) {
+    text-align: right;
+    margin-top: 10px;
+}

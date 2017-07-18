@@ -1,0 +1,15 @@
+:local(.datePicker) {
+    transform: scale(0.8) translate(-20px, -10px);
+    height: 24px;
+    padding-top: -10px;
+}
+
+:local(.datePicker) > div {
+    height: 40px !important;
+}
+
+:local(.selectors) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+}

@@ -1,0 +1,15 @@
+:local(.field) {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+:local(.field) label {
+    display: block;
+    
+    margin-right: 5px;
+}
+
+:local(.field) input {
+    display: block;
+    flex-grow: 1;
+}

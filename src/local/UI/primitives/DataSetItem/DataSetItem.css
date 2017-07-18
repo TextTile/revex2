@@ -1,0 +1,39 @@
+:local(.dataSetItem) {
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: relative;
+}
+
+:local(.dataSetItem):hover {
+    background-color: #EAF0F5;
+    background: linear-gradient(to right, #EAF0F5, rgba(255, 255, 255, 0)); 
+    padding-left: 12px;
+}
+
+:local(.title) {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+:local(.removeButton) {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--main-color);
+    cursor: pointer;
+    display: none;
+}
+
+:local(.removeButton):hover {
+    text-decoration: underline;
+}
+
+:local(.dataSetItem):hover :local(.removeButton) {
+    display: block;
+}
+
+:local(.info) {
+    color: #999;
+}

@@ -1,0 +1,73 @@
+{
+  "name": "revex",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron-devtools-installer": "^2.1.0",
+    "react-scripts": "0.8.5",
+    "react-toolbox": "2.0.0-beta.6",
+    "react-toolbox-themr": "^1.0.2",
+    "semantic-ui": "^2.2.7",
+    "typescript": "next"
+  },
+  "homepage": "http://nyuvis.github.io/revex/ict4sd/",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "d3-scale": "^1.0.4",
+    "d3-shape": "^1.0.4",
+    "elasticsearch": "^12.1.3",
+    "electron": "^1.4.15",
+    "electron-settings": "^2.2.2",
+    "express": "^4.14.1",
+    "flat": "^2.0.1",
+    "konva": "^1.4.0",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.17.0",
+    "moment": "^2.17.1",
+    "node-uuid": "^1.4.7",
+    "portfinder": "^1.0.13",
+    "react": "^15.4.2",
+    "react-addons-shallow-compare": "^15.4.2",
+    "react-bootstrap-daterangepicker": "^3.2.2",
+    "react-datepicker": "^0.41.1",
+    "react-dom": "^15.4.2",
+    "react-icons": "^2.2.3",
+    "react-konva": "^1.1.1",
+    "react-redux": "^5.0.2",
+    "react-router": "next",
+    "react-router-dom": "next",
+    "react-select": "^1.0.0-rc.3",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-virtualized": "^8.11.4",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.14.3",
+    "reselect": "^2.5.4",
+    "semantic-ui-css": "^2.2.4",
+    "semantic-ui-react": "^0.64.8",
+    "validator": "^6.2.1"
+  },
+  "main": "src/remote/electron/native-app.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "toolbox": "react-toolbox-themr"
+  },
+  "reactToolbox": {
+    "include": [
+      "BUTTON",
+      "DATE_PICKER"
+    ],
+    "customProperties": {
+      "animation-duration": "0.3s",
+      "color-accent": "var(--palette-pink-a200)",
+      "color-accent-dark": "var(--palette-pink-700)",
+      "color-primary-contrast": "var(--color-dark-contrast)",
+      "color-accent-contrast": "var(--color-dark-contrast)"
+    },
+    "output": "src/local/assets/react-toolbox"
+  }
+}

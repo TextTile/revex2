@@ -1,0 +1,9 @@
+:local(.main) {
+    padding: 0px 10px 0px 10px;
+}
+
+:local(.button) {
+    margin: 0px 5px 0px 0px;
+    color: var(--main-color);
+    font-size: 16px;
+}

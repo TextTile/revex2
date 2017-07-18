@@ -1,0 +1,5 @@
+:local(.documentList) {
+    flex-grow: 1;
+    overflow: auto;
+}
+

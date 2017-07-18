@@ -1,0 +1,7 @@
+:local(.empty) {
+    color: #ddd;
+    text-align: center;
+    font-size: 25px;
+    height: 100%;
+    padding-top: 14px;
+}

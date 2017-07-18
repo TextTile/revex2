@@ -1,0 +1,6 @@
+:local(.document) {
+    margin: 10px;
+    
+    box-shadow: 0px 0px 5px var(--shadow-color);
+    padding: 10px;
+}

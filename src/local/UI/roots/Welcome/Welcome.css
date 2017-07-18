@@ -1,0 +1,146 @@
+:local(.main) {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+}
+:local(.header) {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    border-bottom: solid 1px #ccc;
+}
+:local(.title) {
+    color: #3369AE;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+:local(.getStarted1) {
+    border: none;
+    outline: none;
+    background-color: #3369AE;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 20px;
+    font-size: 13px;
+}
+:local(.getStarted2) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200px);
+    background-color: white;
+    outline: none;
+    border: none;
+    color: #3369AE;
+    text-decoration: underline;
+}
+:local(.body) {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    bottom: 90px;
+    font-size: 30px;
+}
+:local(.subtitle) {
+    text-align: center;
+    width: 500px;
+    line-height: 35px;
+    font-weight: light;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+}
+:local(.documents) {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-600px, -50%);
+}
+
+:local(.documents) img {
+    width: 30px;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes documentAnimation {
+    from {
+        transform: translate(-1000px, 0px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+:local(.arrowImage) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80px, -50%);
+    animation: fadein 1s;
+}
+
+:local(.arrowImage) img {
+    width: 50px;
+}
+
+:local(.revexImage) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20px, -50%);
+    animation: fadein 2s;
+}
+:local(.revexImage) img {
+    width: 550px;
+}
+
+:local(.footer) {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+    border-top: solid 1px #ccc;
+    text-align: center;
+}
+:local(.NYULogo) {
+    height: 50px;
+    display: inline-block;
+    margin: 20px;
+}
+:local(.FordHam) {
+    height: 50px;
+    display: inline-block;
+    margin: 20px;
+}
+
+:local(.ICT) {
+    height: 50px;
+    display: inline-block;
+    margin: 20px;
+}

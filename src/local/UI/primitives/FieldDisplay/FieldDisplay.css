@@ -1,0 +1,19 @@
+:local(.fieldDisplay)  {
+    font-size: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+:local(.label)  {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+:local(.value)  {
+    font-size: 0.9em;
+    text-overflow: ellipsis;
+    color: #555;
+    overflow: hidden;
+}
