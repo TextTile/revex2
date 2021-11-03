@@ -45,7 +45,7 @@
     "reselect": "^2.5.4",
     "semantic-ui-css": "^2.2.4",
     "semantic-ui-react": "^0.64.8",
-    "validator": "^6.2.1"
+    "validator": "^13.7.0"
   },
   "main": "src/remote/electron/native-app.js",
   "scripts": {
