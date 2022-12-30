@@ -20,7 +20,7 @@
     "electron": "^1.4.15",
     "electron-settings": "^2.2.2",
     "express": "^4.14.1",
-    "flat": "^2.0.1",
+    "flat": "^5.0.1",
     "konva": "^1.4.0",
     "lodash": "^4.17.4",
     "material-ui": "^0.17.0",
